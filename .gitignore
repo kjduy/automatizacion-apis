@@ -1,0 +1,47 @@
+# Maven
+/target/
+
+# IntelliJ
+/.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Maven wrapper
+/.mvn/wrapper/maven-wrapper.jar
+
+# Test reports
+/target/surefire-reports/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build tools
+.gradle/
+build/
+
+# Environment
+.env
+
+# OS generated files
+Thumbs.db
+
+# Ignore generated test artifacts (Karate)
+/test-classes/
+
+# Other
+out/
+.github

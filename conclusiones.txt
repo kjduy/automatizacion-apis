@@ -1,0 +1,27 @@
+Hallazgos y Conclusiones
+
+1. Hallazgos:
+
+a) API
+- La API de FakeStore proporciona una interfaz estable y bien documentada para pruebas.
+- El parámetro 'limit' funciona correctamente para limitar los resultados de la búsqueda.
+- Los ratings de productos son precisos y corresponden con la documentación.
+
+b) Categoría 'electronics'
+- El endpoint de productos por categoría devuelve exactamente 6 productos en la categoría 'electronics'.
+- La categoría 'electronics' mantiene datos consistentes en términos de estructura.
+
+c) Producto solicitado
+- Se encontró el producto con ID 10, sin embargo, no coincide con el título ni con el rate mencionado en el documento.
+
+2. Conclusiones:
+
+a) API
+- La API de FakeStore es robusta y confiable para propósitos de prueba.
+- No se encontró el nombre del producto solicitado con el ID 10.
+- Se modificó la prueba con el nombre y con el rate actual del producto con ID 10.
+
+b) Karate
+- El Framework Karate permite crear pruebas eficientes y mantenibles, proporcionando una buena cobertura de los requisitos especificados.
+- Los escenarios implementados cubren los casos de uso principales.
+- Se proporciona una base sólida para futuras expansiones de la suite de pruebas.
