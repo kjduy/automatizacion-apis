@@ -24,7 +24,7 @@ public class ProductsTest {
                 .statusCode(200)
                 .body("find { it.id == 10 }.id", equalTo(10))
                 .body("find { it.id == 10 }.category", equalTo("electronics"))
-                .body("find { it.id == 10 }.title", equalTo("Silicon Power 256GB SSD 3D NAND A55 SLC Cache performance Boost SATA III 2.5"))
+                .body("find { it.id == 10 }.title", equalTo("SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s"))
                 .body("find { it.id == 10 }.rating.rate", equalTo(2.9f));
     }
 
