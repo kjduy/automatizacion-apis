@@ -6,6 +6,8 @@
 
 ## Instrucciones de ejecución
 
-1. Clonar este repositorio: git clone
+1. Clonar este repositorio:
+- git clone https://github.com/kjduy/automatizacion-apis.git
+- cd automatizacion-apis
 2. Instalar las dependencias: mvn clean install
 3. Ejecutar las pruebas: mvn test

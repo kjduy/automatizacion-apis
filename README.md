@@ -8,7 +8,8 @@
 
 1. Clonar este repositorio 
 ```bash
-git clone
+git clone https://github.com/kjduy/automatizacion-apis.git
+cd automatizacion-apis
 ```
 
 2. Instalar las dependencias
